@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Time capsules</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_followed">FollowedActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="create_capsule">Create capsule</string>
+    <string name="browse_capsules">Browse</string>
+    <string name="title_activity_capsule">CapsuleActivity</string>
+</resources>
