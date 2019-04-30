@@ -96,7 +96,7 @@ public class Capsule implements Serializable {
     public String getOpenDateFormatted() {
         GregorianCalendar openDate = new GregorianCalendar();
         openDate.setTimeInMillis(openTime);
-        return openDate.get(GregorianCalendar.DAY_OF_MONTH) + "." + openDate.get(GregorianCalendar.MONTH) + "." + openDate.get(GregorianCalendar.YEAR);
+        return openDate.get(GregorianCalendar.DAY_OF_MONTH) + "." + (openDate.get(GregorianCalendar.MONTH)+1) + "." + openDate.get(GregorianCalendar.YEAR);
     }
 
     public void setInverseCreatedTime(long inverseCreatedTime) {
