@@ -86,7 +86,7 @@ public class CreateActivity extends AppCompatActivity {
         try {
             openDate.set(
                     Integer.parseInt(((EditText) findViewById(R.id.year)).getText().toString()),
-                    Integer.parseInt(((EditText) findViewById(R.id.month)).getText().toString()),
+                    Integer.parseInt(((EditText) findViewById(R.id.month)).getText().toString())-1,
                     Integer.parseInt(((EditText) findViewById(R.id.day)).getText().toString())
             );
         } catch (Exception e) {
